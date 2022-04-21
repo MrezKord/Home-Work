@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-main {
+    @apply h-[100vh] flex justify-center items-center bg-blue-200
+}
+
+.container {
+    @apply bg-gray-200 w-[500px] p-6 flex justify-between shadow-lg
+}
+
+.main {
+    @apply bg-white p-2 flex flex-col rounded-md gap-2
+}
+
+.item {
+    @apply flex gap-2
+}
+
+.likes {
+    @apply text-sm
+}

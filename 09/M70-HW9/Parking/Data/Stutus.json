@@ -1,0 +1,7 @@
+{
+    "name": "parking",
+    "start": "08:00",
+    "end": "23:59",
+    "total_capacity": 6,
+    "income": 2500
+}

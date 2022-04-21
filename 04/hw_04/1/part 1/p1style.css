@@ -1,0 +1,53 @@
+.container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 3px 4px 5px 3px gray;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background-color: rgb(219, 219, 219);
+}
+.main{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background-color: rgb(219, 219, 219);
+}
+.article{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.aside{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(225, 235, 180);
+}
+.nav{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(162, 192, 142);
+}
+span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}

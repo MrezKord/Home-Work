@@ -1,0 +1,18 @@
+{
+    "name": "mmd/10",
+    "autoload": {
+        "psr-4": {
+            "Game\\": "classes/Game/",
+            "Perid\\": "classes/Perid/",
+            "Pars\\": "classes/Pars/",
+            "Car\\" : "classes/Car/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MrezKord",
+            "email": "mohammadrezasaeedi8295@gmail.com"
+        }
+    ],
+    "require": {}
+}

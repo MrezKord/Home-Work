@@ -1,0 +1,38 @@
+{
+    "1": {
+        "floor": 1,
+        "vehicle": {
+            "plaque": 10002,
+            "weight": 500,
+            "entry_time": "2022-04-19 20:00",
+            "entry_day": "Tuesday",
+            "type": "Motorcycle"
+        },
+        "status": "full"
+    },
+    "2": {
+        "floor": 1,
+        "vehicle": "",
+        "status": "empty"
+    },
+    "3": {
+        "floor": 1,
+        "vehicle": "",
+        "status": "empty"
+    },
+    "4": {
+        "floor": 1,
+        "vehicle": "",
+        "status": "empty"
+    },
+    "5": {
+        "floor": 1,
+        "vehicle": "",
+        "status": "empty"
+    },
+    "6": {
+        "floor": 1,
+        "vehicle": "",
+        "status": "empty"
+    }
+}

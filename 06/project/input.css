@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------------- Quastion 1 --------------- */
+.container-view{
+    @apply bg-gray-500 h-[100vh] flex justify-center items-center
+}
+.container-contents{
+    @apply w-[550px] bg-white flex flex-col gap-8 p-8 rounded-2xl shadow-md shadow-gray-600 
+}
+/* Follow Button */
+.container-btn{ 
+    @apply flex items-center
+}
+.btn-1{
+    @apply bg-violet-700 text-white h-10 w-20 rounded
+}
+/* for each content */
+.content{
+    @apply flex justify-between
+}
+.item{
+    @apply flex items-center gap-2
+}
+.image{
+    @apply w-24 rounded-[50%]
+}
+.note{
+    @apply flex flex-col
+}
+.link{
+    @apply text-center font-[700]
+}
+.name{
+    @apply font-bold
+}
+.info{
+    @apply text-gray-500 font-[500]
+}
+
+/* --------------- Quastion 2 --------------- */
+/* General */
+.container-1{
+    @apply relative
+}
+.fix-git{
+    @apply fixed bottom-5 right-5 rounded-full bg-gray-300 border-[1px] border-gray-400 p-3 
+}
+.stak{
+    @apply bg-indigo-700 text-white rounded-full p-1 
+}
+/* Navbar */
+.nav-bar{
+    @apply flex justify-between py-6 px-[7%] border-b-[1px] border-b-gray-200
+}
+.nav-bar div{
+    @apply flex gap-5 items-center
+}
+.logo{ 
+    @apply text-[20px] 
+}
+.logo span{
+    @apply font-[600]
+} 
+/* Main-1 */
+
+.container-main-1{
+    @apply px-[7%] py-[100px] flex lg:flex-row md:flex-col sm:flex-col  gap-20 items-center 
+}
+.text-main{
+    @apply flex flex-col gap-5 w-[500px]
+}
+.container-size{
+    @apply w-[720px] h-[600px] bg-gray-300 text-gray-400 flex justify-center items-center 
+}
+.container-size div{
+    @apply text-[70px] text-gray-400 flex gap-2 place-items-center
+}
+.container-size svg{
+    @apply mt-5
+}
+.cont-btn-main{
+    @apply flex gap-2
+}
+.btn-main{
+    @apply w-20 h-10 rounded
+}
+
+/* container 2 */
+
+.container-2{
+    @apply flex flex-col gap-8 py-28 px-[7%] mb-10 border-b-[1px] border-gray-300
+}
+.title-2{
+    @apply flex flex-col gap-3 mb-24 text-center 
+}
+.head-sm{
+    @apply text-sm text-indigo-700 font-[600]
+}
+.head-lg{
+    @apply text-[32px] font-[600]
+}
+.cards{
+    @apply flex sm:flex-col md:flex-col lg:flex-row gap-8
+}
+.card{
+    @apply flex flex-col gap-3 bg-gray-300 p-8 rounded-md
+}
+.card-logo{
+    @apply flex items-center gap-3
+}
+.card-head{
+    @apply text-[20px] font-[600]
+}
+.arm{
+    @apply bg-indigo-700 text-white rounded-full p-1
+}
+.read-more{
+    @apply flex items-center gap-1 text-indigo-700
+}
+
+/* container 3 */
+
+.container-3{
+    @apply relative
+}
+.map-back{
+    @apply h-[100vh] filter grayscale-[100%]
+}
+.feed-back{
+    @apply absolute top-[15%] bottom-[15%] right-[7%] bg-white flex flex-col gap-4 p-10 w-[400px] h-fit rounded-md
+}
+.feed-back form{
+    @apply flex flex-col gap-4 flex-wrap
+}
+.feed-back-email{  
+    @apply p-3 border-[1px] border-gray-400 rounded
+}
+.feed-back textarea{
+    @apply p-3 border-[1px] border-gray-400 h-48 resize-none rounded
+}
+.feed-back button{
+    @apply bg-indigo-700 text-white h-10 rounded
+}
+
+/* --------------- Quastion 3 --------------- */
+/* General */
+.container-all{
+    @apply px-20 py-10 flex justify-center items-center
+}
+.container-cards{
+    @apply grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid gap-8 w-fit h-fit
+} 
+.item-card{
+    @apply flex flex-col rounded-xl shadow-xl shadow-gray-400
+}
+/* image */
+.back{
+    @apply w-fit
+}
+.back img{
+    @apply w-full h-[250px] rounded-t-xl
+}
+/* Article */
+.article-title{
+    @apply flex justify-between items-center w-full p-4
+}
+.title-head{
+    @apply text-[20px] font-[700]
+}
+.title-date{
+    @apply text-gray-600 font-[500]
+}
+/* Author */
+.container-author{
+    @apply flex justify-between items-center w-full p-4
+}
+.author{
+    @apply flex items-center gap-2
+}
+.author-name{
+    @apply font-[500]
+}
+.author-img{
+    @apply w-12 rounded-full
+}

@@ -1,0 +1,19 @@
+{
+    "name": "mmd/weblog",
+    "autoload": {
+        "psr-4": {
+            "": "classes/",
+            "User\\": "classes/User",
+            "Post\\": "classes/Post",
+            "Ability\\": "classes/User/Ability",
+            "UserType\\": "classes/User/UserType"
+        }
+    },
+    "authors": [
+        {
+            "name": "MrezKord",
+            "email": "mohammadrezasaeedi8295@gmail.com"
+        }
+    ],
+    "require": {}
+}

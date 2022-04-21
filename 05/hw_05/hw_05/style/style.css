@@ -1,0 +1,28 @@
+.bg-my-color{
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+    height: 100vh;
+    width: 100vw;
+}
+.container-button{
+    width: 300px;
+}
+
+.container-main{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.bb{
+    border: 1px solid black;
+}
+.control-group-list{
+    display: flex;
+    flex-direction: row;
+}
+.size-section{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
